@@ -9,3 +9,6 @@
 *.tfvars
 
 *.pem
+test
+terra
+*.pub
