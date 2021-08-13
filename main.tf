@@ -116,6 +116,6 @@ resource "aws_instance" "myapp-server" {
         Name: "${var.env_prefix}-server"
     }
 
-    user_data = "${file("entry-script.sh")}"
+    user_data = "${file("./entry-script.sh")}"
 }
 
